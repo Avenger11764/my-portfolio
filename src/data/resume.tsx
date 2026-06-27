@@ -77,7 +77,7 @@ export const DATA = {
       end: "2027",
     },
   ],
-  experience: [], // Left empty as per user resume
+  experience: [] as any[], // Left empty as per user resume
   projects: [
     {
       title: "Smart Notch",
@@ -193,8 +193,8 @@ export const DATA = {
       video: "",
     },
   ],
-  patents: [], // Left empty
-  articles: [], // Left empty
+  patents: [] as any[], // Left empty
+  articles: [] as any[], // Left empty
   certificate: [
     {
       title: "Hacktoberfest 2025: Open Source Contributor",
