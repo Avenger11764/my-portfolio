@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://urayushjain.vercel.app/sitemap.xml
+Sitemap: https://avinash-bajpai.vercel.app/sitemap.xml
 
 # Crawl-delay (optional, for respectful crawling)
 Crawl-delay: 1

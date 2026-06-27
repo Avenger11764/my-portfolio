@@ -9,26 +9,24 @@ export function SchemaMarkup() {
     "name": DATA.name,
     "url": DATA.url,
     "image": `${DATA.url}${DATA.avatarUrl}`,
-    "jobTitle": "Full-Stack Developer & Web3 Enthusiast",
-    "description": "Computer Science student and 5x patent holder specializing in Generative AI, Web3, and blockchain technologies",
+    "jobTitle": "Full-Stack Developer",
+    "description": "Computer Science student specializing in React, Node.js, Electron.js, and modern databases",
     "alumniOf": {
       "@type": "EducationalOrganization",
-      "name": "ABES Engineering College"
+      "name": "KCC Institute of Technology and Management (KCCITM)"
     },
     "knowsAbout": [
       "Full-Stack Development",
-      "Web3",
-      "Generative AI",
+      "Electron.js",
       "React",
       "Node.js",
-      "Blockchain",
       "JavaScript",
-      "TypeScript"
+      "TypeScript",
+      "Databases"
     ],
     "sameAs": [
       DATA.contact.social.GitHub.url,
-      DATA.contact.social.LinkedIn.url,
-      "https://x.com/urayushjain"
+      DATA.contact.social.LinkedIn.url
     ]
   };
 
@@ -41,7 +39,7 @@ export function SchemaMarkup() {
       "@type": "Person",
       "name": DATA.name
     },
-    "description": "Portfolio showcasing full-stack development projects, patents, and expertise in AI and Web3 technologies"
+    "description": "Portfolio showcasing full-stack development, desktop utilities, and open source contributions"
   };
 
   return (

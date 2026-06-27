@@ -30,14 +30,14 @@ export default function Page() {
             <div className="flex-col flex flex-1 space-y-1.5">
               {/* Load main heading immediately for better FCP */}
               <h1 id="hero-heading" className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                Ayush Jain <br/> 
+                {DATA.name} <br/> 
                 <span className="text-xl font-semibold sm:text-3xl xl:text-3xl/none">          Full-Stack Developer </span>
               </h1>
               <BlurFadeText
                 delay={0} // No delay for critical content
                 className="text-lg font-medium text-muted-foreground"
                 yOffset={4} // Reduced offset
-                text="Specializing in Generative AI, Web3, and Modern Web Development"
+                text="Specializing in Frontend, Backend, and Desktop UI Utilities"
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
@@ -111,6 +111,7 @@ export default function Page() {
           ))}
         </div>
       </section>
+      {DATA.experience && DATA.experience.length > 0 && (
       <section id="experience" aria-labelledby="experience-heading">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
@@ -140,6 +141,7 @@ export default function Page() {
           ))}
         </div>
       </section>
+      )}
       <section id="skills" aria-labelledby="skills-heading" role="region">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
@@ -194,6 +196,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {DATA.patents && DATA.patents.length > 0 && (
       <section id="patents" aria-labelledby="patents-heading">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -230,6 +233,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+      )}
+      {DATA.articles && DATA.articles.length > 0 && (
       <section id="articles" aria-labelledby="articles-heading">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 15}>
@@ -267,6 +272,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+      )}
+      {DATA.certificate && DATA.certificate.length > 0 && (
       <section id="certificate" aria-labelledby="certificate-heading">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
@@ -305,6 +312,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+      )}
       <section id="contact" aria-labelledby="contact-heading">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>

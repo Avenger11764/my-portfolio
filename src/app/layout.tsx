@@ -19,7 +19,7 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
-    default: `${DATA.name} | Full-Stack Developer & Web3 Enthusiast`,
+    default: `${DATA.name} | Full-Stack Developer`,
     template: `%s | ${DATA.name}`,
   },
   icons: {
@@ -27,52 +27,47 @@ export const metadata: Metadata = {
     shortcut: "/favicon.png",
     apple: "/favicon.jpg",
   },
-  description: "Ayush Jain - Full-Stack Developer & 5x Patent Holder specializing in Generative AI, Web3, and blockchain technologies. Computer Science student at ABES.",
+  description: "Avinash Bajpai - Full-Stack Developer specializing in React, Node.js, Electron.js, and modern databases. Computer Science student at KCCITM.",
   keywords: [
-    "Ayush Jain",
+    "Avinash Bajpai",
     "Full-Stack Developer", 
-    "Web3",
-    "Generative AI",
+    "Electron.js",
     "React",
     "Node.js",
-    "Blockchain",
     "Portfolio",
     "Computer Science",
-    "Patent Holder",
     "JavaScript",
     "TypeScript",
-    "Firebase",
-    "Solidity",
-    "ABES Engineering College"
+    "KCCITM"
   ],
   alternates: {
     canonical: DATA.url,
   },
-  authors: [{ name: "Ayush Jain" }],
-  creator: "Ayush Jain",
+  authors: [{ name: "Avinash Bajpai" }],
+  creator: "Avinash Bajpai",
   openGraph: {
-    title: `${DATA.name} | Full-Stack Developer & Web3 Enthusiast`,
-    description: "Ayush Jain - Full-Stack Developer & 5x Patent Holder specializing in Generative AI, Web3, and blockchain technologies. Computer Science student at ABES.",
+    title: `${DATA.name} | Full-Stack Developer`,
+    description: "Avinash Bajpai - Full-Stack Developer specializing in React, Node.js, Electron.js, and modern databases. Computer Science student at KCCITM.",
     url: DATA.url,
     siteName: `${DATA.name} Portfolio`,
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/ayu.webp",
+        url: "/avatar.jpg",
         width: 1200,
         height: 630,
-        alt: "Ayush Jain - Full-Stack Developer & Web3 Enthusiast",
+        alt: "Avinash Bajpai - Full-Stack Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${DATA.name} | Full-Stack Developer & Web3 Enthusiast`,
-    description: "Ayush Jain - Full-Stack Developer & 5x Patent Holder specializing in Generative AI, Web3, and blockchain technologies.",
-    images: ["/ayu.webp"],
-    creator: "@urayushjain",
-    site: "@urayushjain",
+    title: `${DATA.name} | Full-Stack Developer`,
+    description: "Avinash Bajpai - Full-Stack Developer specializing in React, Node.js, Electron.js, and modern databases.",
+    images: ["/avatar.jpg"],
+    creator: "@Devavinashh",
+    site: "@Devavinashh",
   },
   robots: {
     index: true,
@@ -104,7 +99,7 @@ export default function RootLayout({
       <head>
         <SchemaMarkup />
         {/* Preload critical resources for better performance */}
-        <link rel="preload" href="/ayu.webp" as="image" type="image/webp" />
+        <link rel="preload" href="/avatar.jpg" as="image" type="image/jpeg" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {/* Google Analytics - Disabled until valid tracking ID is provided */}
