@@ -106,7 +106,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/smart-notch.png",
       video: "",
     },
     {
@@ -136,7 +136,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/medivault.png",
       video: "",
     },
     {
@@ -165,7 +165,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/duo-learning.png",
       video: "",
     },
     {
@@ -194,7 +194,7 @@ export const DATA = {
     },
     {
       title: "DOCU",
-      href: "https://github.com/Avenger11764/DOCU",
+      href: "https://docu-ai-avi.vercel.app/",
       dates: "2026 - Present",
       active: true,
       description:
@@ -208,17 +208,22 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Website",
+          href: "https://docu-ai-avi.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Source",
           href: "https://github.com/Avenger11764/DOCU",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/docu.png",
       video: "",
     },
     {
       title: "Task Tracker",
-      href: "https://github.com/Avenger11764/Task-tracker",
+      href: "https://task-tracker-avi.vercel.app/",
       dates: "2026 - Present",
       active: true,
       description:
@@ -232,17 +237,22 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Website",
+          href: "https://task-tracker-avi.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Source",
           href: "https://github.com/Avenger11764/Task-tracker",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/task-tracker.png",
       video: "",
     },
     {
       title: "JobLink",
-      href: "https://github.com/Avenger11764/Joblink",
+      href: "https://joblink-avi.vercel.app/",
       dates: "2026 - Present",
       active: true,
       description:
@@ -256,12 +266,17 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Website",
+          href: "https://joblink-avi.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Source",
           href: "https://github.com/Avenger11764/Joblink",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/joblink.png",
       video: "",
     },
   ],
