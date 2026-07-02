@@ -192,6 +192,78 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+      title: "DOCU",
+      href: "https://github.com/Avenger11764/DOCU",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "A secure, collaborative document sharing and management platform. Built to simplify document workflows, allowing users to store, organize, and share documents with custom access permissions, and features structured indexing for rapid file retrieval.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Avenger11764/DOCU",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Task Tracker",
+      href: "https://github.com/Avenger11764/Task-tracker",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "A comprehensive task management dashboard featuring status categories, deadline tracking, and visual completion metrics. Designed to help teams or individuals coordinate schedules, prioritize deliverables, and analyze productivity flows.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Avenger11764/Task-tracker",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "JobLink",
+      href: "https://github.com/Avenger11764/Joblink",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "A job application tracking system and search platform built to simplify the job hunting process. Features customized dashboards to organize application statuses, resume attachments, interviewer notes, and upcoming follow-ups.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Avenger11764/Joblink",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
   ],
   patents: [] as any[], // Left empty
   articles: [] as any[], // Left empty
