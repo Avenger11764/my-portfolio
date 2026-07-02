@@ -170,7 +170,7 @@ export const DATA = {
     },
     {
       title: "AlgoPrep",
-      href: "https://github.com/Avenger11764/algoprep",
+      href: "https://algoprep-orpin.vercel.app/",
       dates: "2025 - Present",
       active: true,
       description:
@@ -183,6 +183,11 @@ export const DATA = {
         "Algorithms",
       ],
       links: [
+        {
+          type: "Website",
+          href: "https://algoprep-orpin.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/Avenger11764/algoprep",
