@@ -189,7 +189,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/algoprep.png",
       video: "",
     },
     {
